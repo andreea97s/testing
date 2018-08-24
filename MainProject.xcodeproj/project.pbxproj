@@ -14,7 +14,25 @@
 		6DD24E7E212FFA1800D841EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD24E7C212FFA1800D841EB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6DB0A94A21303CE2000D41C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB0A94621303CE2000D41C9 /* SecondApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6DD24E8E212FFBB900D841EB;
+			remoteInfo = SecondApp;
+		};
+		6DB0A94C21303D3E000D41C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB0A94621303CE2000D41C9 /* SecondApp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DD24E8D212FFBB900D841EB;
+			remoteInfo = SecondApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6DB0A94621303CE2000D41C9 /* SecondApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecondApp.xcodeproj; path = ../submoduleTesting/SecondApp.xcodeproj; sourceTree = "<group>"; };
 		6DD24E70212FFA1800D841EB /* MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD24E73212FFA1800D841EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DD24E75212FFA1800D841EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +53,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DB0A94721303CE2000D41C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB0A94B21303CE2000D41C9 /* SecondApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6DD24E67212FFA1800D841EB = {
 			isa = PBXGroup;
 			children = (
+				6DB0A94621303CE2000D41C9 /* SecondApp.xcodeproj */,
 				6DD24E72212FFA1800D841EB /* MainProject */,
 				6DD24E71212FFA1800D841EB /* Products */,
 			);
@@ -78,6 +105,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6DB0A94D21303D3E000D41C9 /* PBXTargetDependency */,
 			);
 			name = MainProject;
 			productName = MainProject;
@@ -110,12 +138,28 @@
 			mainGroup = 6DD24E67212FFA1800D841EB;
 			productRefGroup = 6DD24E71212FFA1800D841EB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6DB0A94721303CE2000D41C9 /* Products */;
+					ProjectRef = 6DB0A94621303CE2000D41C9 /* SecondApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6DD24E6F212FFA1800D841EB /* MainProject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6DB0A94B21303CE2000D41C9 /* SecondApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SecondApp.app;
+			remoteRef = 6DB0A94A21303CE2000D41C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6DD24E6E212FFA1800D841EB /* Resources */ = {
@@ -141,6 +185,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB0A94D21303D3E000D41C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecondApp;
+			targetProxy = 6DB0A94C21303D3E000D41C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6DD24E77212FFA1800D841EB /* Main.storyboard */ = {

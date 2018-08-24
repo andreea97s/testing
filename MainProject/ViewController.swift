@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SecondApp
 
 class ViewController: UIViewController {
 
