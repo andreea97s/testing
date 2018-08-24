@@ -1,3 +1,6 @@
 [submodule "submoduleTesting"]
 	path = submoduleTesting
 	url = https://github.com/andreea97s/submoduleTesting.git
+[submodule "firstFramework"]
+	path = firstFramework
+	url = https://github.com/andreea97s/firstFramework.git
