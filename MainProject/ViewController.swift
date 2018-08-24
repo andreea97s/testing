@@ -12,7 +12,9 @@ import SecondApp
 class ViewController: UIViewController {
 
     @IBAction func didTapGoButton(_ sender: Any) {
-        print("Not implemented yet")
+        let storyboard = UIStoryboard(name: "SecondApp", bundle: nil)
+        let vc = storyboard.instantiateInitialViewController()
+        present(vc!, animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
