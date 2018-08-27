@@ -12,9 +12,6 @@ import SecondApp
 class ViewController: UIViewController {
 
     @IBAction func didTapGoButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "SecondApp", bundle: nil)
-        let vc = storyboard.instantiateInitialViewController()
-        present(vc!, animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
